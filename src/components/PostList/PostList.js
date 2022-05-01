@@ -21,7 +21,7 @@ export default function PostList(props) {
                 >
                     <Link to={`${post.url}`}>
                         <Card className='post-list__item'>
-                            <Image src={post.miniature.publicURL} />
+                            {/* <Image src={post.miniature.publicURL} /> */}
                             <Card.Content>
                                 <Card.Header>{post.title}</Card.Header>
                             </Card.Content>

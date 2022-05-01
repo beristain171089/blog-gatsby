@@ -14,7 +14,7 @@ export default function Post(props) {
             <Seo
                 title={post.seo_title}
                 description={post.seo_description}
-                image={post.publicURL}
+                //image={post.publicURL}
             />
             <h1>{post.title}</h1>
             <div className='markdown-body'>
