@@ -8,7 +8,7 @@ export default function Menu() {
     return (
         <div className="menu">
             <Link to="/">
-                <h2>Blog developer</h2>
+                <h2>Blog developer - LUIS</h2>
             </Link>
             <p>
                 Blog sobre desarrollo de software
